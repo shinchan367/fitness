@@ -1,0 +1,173 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.mainimg{
+    display:flex;
+    /*:fixed;*/
+    /*left:0px;*/
+    width:100%;
+    height:90%;
+    /*justify-content:center;*/
+    /*align-items:center;*/
+    opacity: 0.5;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.btn{
+    margin-top: 4px
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+  }
+  .pricing-column {
+    padding: 3% 3% ;
+  }
+  .card{
+  padding : 0;
+  margin : 50px auto 0;
+  height: 360px;
+  width: 300px;
+}
+       
+  
+  .price-text {
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+ .h2,h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+  
+ }
+ .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align:center;
+  }
+  .sectionmini{
+    text-align: center;
+  }
+  #footer{
+    padding:7% 15%;
+     text-align:center;
+  }
+
+  .social-icon{
+    margin:20px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:2rem;
+  }
+
+  blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    position: relative; 
+    max-width: 400px; 
+        margin: 0 auto; 
+        padding-left: 0.4em; 
+    }
+    
+    blockquote h3 {
+        font-size:21px;
+    }
+    
+    blockquote h3:before { 
+        content: "\201C";
+        font-weight: bold;
+        font-size:100px;
+        color:#308aa5;
+        position: absolute; 
+        top: -0.5em;
+        left: -0.5em; 
+        font-family: 'Georgia'; 
+    } 
+    blockquote h3:after { 
+        content: "\201D";
+        font-weight: bold;
+        font-size:100px;
+        color:#308aa5;
+        position: absolute; 
+        bottom: -0.9em;
+        right: 0; 
+        font-family: 'Georgia'; 
+    }
+
+    
+    .btn1{
+      position: absolute;
+  top: 50%;
+  left: 50%;
+      transform: translate(-52%, 90%);
+      -ms-transform: translate(-50%, -50%);
+    }
